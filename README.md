@@ -156,24 +156,24 @@ Antes de abrir um chamado, é necessário registrar os atores no sistema para ev
 
 1. **Cadastrar Solicitante (Cliente):**
    * Digite `1` e pressione Enter.
-   * Insira o nome (Ex: `João Silva`) e o e-mail (Ex: `joao@email.com`).
+   * Insira o nome (Ex: `Matheus Guilherme`) e o e-mail (Ex: `matheus.gui@gmail.com`).
    * Retorno esperado: `Solicitante cadastrado com sucesso!`
 
 2. **Cadastrar Técnico:**
    * Digite `2` e pressione Enter.
-   * Insira o nome (Ex: `Catarina Souza`), e-mail (Ex: `catarina@email.com`) e selecione a especialidade digitando `1` (Redes).
+   * Insira o nome (Ex: `Kauê Otsubo`), e-mail (Ex: `k.tsubo@gmail.com`) e selecione a especialidade digitando `1` (Redes).
    * Retorno esperado: `Técnico cadastrado com sucesso com a especialidade Redes!`
 
 ### Passo 2: Abertura e Atribuição de Chamados
 
 3. **Abrir um Novo Chamado:**
    * Digite `3` e pressione Enter.
-   * Informe o e-mail do solicitante autor (`joao@email.com`), o tipo do problema (`1` para Redes) e a descrição do ocorrido.
-   * Retorno esperado: Notificação de sucesso simulada na tela (`[E-mail enviado para joao@email.com]: Seu chamado #1 foi aberto com sucesso!`).
+   * Informe o e-mail do solicitante autor (`matheus.gui@gmail.com`), o tipo do problema (`1` para Redes) e a descrição do ocorrido.
+   * Retorno esperado: Notificação de sucesso simulada na tela (`[E-mail enviado para matheus.gui@gmail.com]: Seu chamado #1 foi aberto com sucesso!`).
 
 4. **Atribuir Técnico ao Chamado:**
    * Digite `4` e pressione Enter.
-   * Informe o ID do chamado (`1`) e o e-mail do técnico responsável (`catarina@email.com`).
+   * Informe o ID do chamado (`1`) e o e-mail do técnico responsável (`k.tsubo@gmail.com`).
    * Retorno esperado: O sistema altera o estado do chamado para `EM_ANDAMENTO` e exibe o alerta no painel do técnico.
 
 ### Passo 3: Consulta e Relatórios
