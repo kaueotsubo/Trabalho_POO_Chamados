@@ -36,6 +36,24 @@ Em ambientes corporativos ou acadêmicos, a solicitação de suporte técnico mu
 
 ---
 
+## 4 - DIAGRAMA DE ESTADOS
+
+```mermaid
+stateDiagram-v2
+    [*] --> ABERTO : Cliente cria o Chamado
+    
+    ABERTO --> EM_ANDAMENTO : Tecnico assume o Chamado
+    
+    EM_ANDAMENTO --> RESOLVIDO : Tecnico soluciona o problema
+    
+    RESOLVIDO --> FECHADO : Cliente aprova a solução
+    RESOLVIDO --> EM_ANDAMENTO : Cliente recusa a solução
+    
+    FECHADO --> [*]
+```
+
+---
+
 ## 4 - DIAGRAMA DE CLASSES
 
 ```mermaid
@@ -100,19 +118,3 @@ classDiagram
 ```
 
 ---
-
-## 5 - DIAGRAMA DE ESTADOS
-
-```mermaid
-stateDiagram-v2
-    [*] --> ABERTO : Cliente cria o Chamado
-    
-    ABERTO --> EM_ANDAMENTO : Tecnico assume o Chamado
-    
-    EM_ANDAMENTO --> RESOLVIDO : Tecnico soluciona o problema
-    
-    RESOLVIDO --> FECHADO : Cliente aprova a solução
-    RESOLVIDO --> EM_ANDAMENTO : Cliente recusa a solução
-    
-    FECHADO --> [*]
-```
