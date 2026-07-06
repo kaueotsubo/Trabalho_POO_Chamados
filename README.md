@@ -29,12 +29,14 @@ A comunicação e a flexibilidade do sistema foram aprimoradas através da Progr
 
 ## 3 - REQUISITOS FUNCIONAIS
 
-- RF01: O sistema deve permitir o cadastro de novos usuários, diferenciando o perfil entre Cliente e Técnico.
-- RF02: O sistema deve permitir que um Cliente registre um novo chamado informando a descrição do problema.
-- RF03: O sistema deve permitir que um Técnico assuma a responsabilidade pelo atendimento de um chamado.
-- RF04: O sistema deve gerenciar e atualizar os status dos chamados (Aberto, Em Andamento, Resolvido, Fechado).
-- RF05: O sistema deve acionar uma interface de notificação para alertar os envolvidos quando houver alterações no andamento.
-- RF06: O sistema deve possuir uma funcionalidade de busca para consultar usuários e chamados específicos registrados na base.
+|Requisitos Funcionais|Informações dos requisitos|
+|-----|------------------------------------------------------------------------------------------------------|
+|RF01:| O sistema deve permitir o cadastro de novos usuários, diferenciando o perfil entre Cliente e Técnico.|
+|RF02:| O sistema deve permitir que um Cliente registre um novo chamado informando a descrição do problema.|
+|RF03:| O sistema deve permitir que um Técnico assuma a responsabilidade pelo atendimento de um chamado.|
+|RF04:| O sistema deve gerenciar e atualizar os status dos chamados (Aberto, Em Andamento, Resolvido, Fechado).|
+|RF05:| O sistema deve acionar uma interface de notificação para alertar os envolvidos quando houver alterações no andamento.|
+|RF06:| O sistema deve possuir uma funcionalidade de busca para consultar usuários e chamados específicos registrados na base.|
 
 ---
 
