@@ -146,3 +146,61 @@ O diagrama de classes ilustra a estrutura do sistema, destacando as relações, 
 - **Polimorfismo e Notificação (Interfaces):** A interface `Notificavel` define o método `enviarNotificacao(String mensagem)`. Tanto `Cliente` quanto `Tecnico` implementam essa interface (indicado pelas setas tracejadas), permitindo que a classe `SistemaNotificacao` envie alertas para qualquer um dos atores de forma genérica e polimórfica através do método `notificar`.
 
 ---
+
+## 8 - MANUAL DE USUÁRIO
+
+Ao executar a classe `Main.java`, o sistema exibirá o menu principal no console, aguardando a inserção dos comandos numéricos.
+
+### Passo 1: Cadastro de Usuários
+Antes de abrir um chamado, é necessário registrar os atores no sistema para evitar exceções de segurança.
+
+1. **Cadastrar Solicitante (Cliente):**
+   * Digite `1` e pressione Enter.
+   * Insira o nome (Ex: `João Silva`) e o e-mail (Ex: `joao@email.com`).
+   * Retorno esperado: `Solicitante cadastrado com sucesso!`
+
+2. **Cadastrar Técnico:**
+   * Digite `2` e pressione Enter.
+   * Insira o nome (Ex: `Catarina Souza`), e-mail (Ex: `catarina@email.com`) e selecione a especialidade digitando `1` (Redes).
+   * Retorno esperado: `Técnico cadastrado com sucesso com a especialidade Redes!`
+
+### Passo 2: Abertura e Atribuição de Chamados
+
+3. **Abrir um Novo Chamado:**
+   * Digite `3` e pressione Enter.
+   * Informe o e-mail do solicitante autor (`joao@email.com`), o tipo do problema (`1` para Redes) e a descrição do ocorrido.
+   * Retorno esperado: Notificação de sucesso simulada na tela (`[E-mail enviado para joao@email.com]: Seu chamado #1 foi aberto com sucesso!`).
+
+4. **Atribuir Técnico ao Chamado:**
+   * Digite `4` e pressione Enter.
+   * Informe o ID do chamado (`1`) e o e-mail do técnico responsável (`catarina@email.com`).
+   * Retorno esperado: O sistema altera o estado do chamado para `EM_ANDAMENTO` e exibe o alerta no painel do técnico.
+
+### Passo 3: Consulta e Relatórios
+
+5. **Mostrar Todos os Chamados:**
+   * Digite `6` e pressione Enter.
+   * O sistema imprimirá a lista contendo ID, status atual, descrição, autor e técnico designado de cada registro.
+
+6. **Buscar Chamado por ID:**
+   * Digite `7` e pressione Enter e informe o ID desejado (`1`).
+   * O sistema filtrará e exibirá detalhadamente apenas o chamado correspondente.
+
+### Passo 4: Resolução e Encerramento
+
+7. **Marcar Chamado como Resolvido:**
+   * Digite `5` e pressione Enter e informe o ID do chamado (`1`).
+   * Retorno esperado: `Chamado finalizado como RESOLVIDO!`
+
+8. **Sair do Sistema:**
+   * Digite `0` e pressione Enter para encerrar a execução do programa com segurança.
+
+---
+
+### Validações e Tratamento de Erros (Casos de Teste)
+
+O sistema conta com um ecossistema robusto de tratamento de exceções para garantir a estabilidade da aplicação contra entradas inválidas:
+
+- **Entrada Inválida no Menu:** Digitar caracteres de texto no menu principal aciona uma captura de `NumberFormatException`. O sistema exibe um aviso de entrada inválida e retorna ao menu sem interromper a execução.
+- **Duplicidade de Cadastro:** Tentar registrar dois usuários com o mesmo e-mail dispara uma exceção personalizada de chave já cadastrada, impedindo a duplicidade na memória.
+- **Busca por Identificador Inexistente:** Buscar por um ID que não consta no sistema (Ex: `999`) dispara a exceção `ChamadoNaoLocalizadoException`, exibindo uma mensagem limpa de erro em vez de quebrar o software.
