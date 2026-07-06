@@ -199,7 +199,7 @@ Antes de abrir um chamado, é necessário registrar os atores no sistema para ev
 
 ---
 
-### Validações e Tratamento de Erros (Casos de Teste)
+## 8 - Validações e Tratamento de Erros (Casos de Teste)
 
 O sistema conta com um ecossistema robusto de tratamento de exceções para garantir a estabilidade da aplicação contra entradas inválidas:
 
