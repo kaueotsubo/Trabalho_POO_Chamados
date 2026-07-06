@@ -1,4 +1,4 @@
-# Sistema de Chamados HelpDesk
+# Sistema de Chamados Automatizado de HelpDesk
 
 ### Integrantes: 
 - Ana Luiza Costa da Frota
