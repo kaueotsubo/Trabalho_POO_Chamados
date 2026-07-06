@@ -13,8 +13,6 @@
 - JDK (Java Development Kit)
 - IntelliJ IDEA
 
-
-
 ---
 
 ## 1 - INTRODUÇÃO DO PROBLEMA
