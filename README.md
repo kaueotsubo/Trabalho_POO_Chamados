@@ -211,7 +211,9 @@ O sistema conta com um ecossistema robusto de tratamento de exceções para gara
 - **Duplicidade de Cadastro:** Tentar registrar dois usuários com o mesmo e-mail dispara uma exceção personalizada de chave já cadastrada, impedindo a duplicidade na memória.
 - **Busca por Identificador Inexistente:** Buscar por um ID que não consta no sistema (Ex: `999`) dispara a exceção `ChamadoNaoLocalizadoException`, exibindo uma mensagem limpa de erro em vez de quebrar o software.
 
+---
+
 ## 9 - CONCLUSÃO
 
-Com este projeto, fomos capazes de usar os conteudos ensinados em sala de maneira prática, facilitando a resolução deste trabalho.
-O simulador cumpre com os requisitos requeridos pelo professor na disciplina de Orientação a Objetos
+Com este projeto, fomos capazes de usar os conteúdos ensinados em sala de maneira prática, facilitando a resolução deste trabalho. O sistema cumpre com os requisitos
+requeridos pelo professor na disciplina de Orientação a Objetos
