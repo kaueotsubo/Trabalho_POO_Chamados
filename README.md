@@ -19,7 +19,7 @@ O gerenciamento de serviços de TI em muitas organizações frequentemente sofre
 
 Outro desafio comum em sistemas legados é a rigidez das estruturas de cadastro. Regras de negócio inflexíveis limitam a colaboração da equipe técnica e, na ausência de um tratamento de erros robusto, erros simples de digitação por parte do usuário podem causar instabilidade ou o fechamento inesperado da aplicação, prejudicando a operação diária da infraestrutura de TI.
 
-## 2 - A Solução
+## 2 - SOLUÇÃO PROPOSTA
 
 Para sanar essas limitações, foi desenvolvido um Sistema Automatizado de Help Desk estruturado em camadas e construído em Java. A solução centraliza o controle de chamados utilizando estruturas de dados em memória (`HashMap`), o que impede cadastros duplicados ao indexar usuários unicamente por seus e-mails. Cada chamado recebe um identificador sequencial automático e tem seu ciclo de vida monitorado de forma segura através de estados predefinidos (`ABERTO`, `EM_ANDAMENTO`, `RESOLVIDO`).
 
