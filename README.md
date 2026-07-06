@@ -29,14 +29,14 @@ A comunicação e a flexibilidade do sistema foram aprimoradas através da Progr
 
 ## 3 - REQUISITOS FUNCIONAIS
 
-|Requisitos Funcionais|Informações dos requisitos|
-|-----|------------------------------------------------------------------------------------------------------|
-|RF01:| O sistema deve permitir o cadastro de novos usuários, diferenciando o perfil entre Cliente e Técnico.|
-|RF02:| O sistema deve permitir que um Cliente registre um novo chamado informando a descrição do problema.|
-|RF03:| O sistema deve permitir que um Técnico assuma a responsabilidade pelo atendimento de um chamado.|
-|RF04:| O sistema deve gerenciar e atualizar os status dos chamados (Aberto, Em Andamento, Resolvido, Fechado).|
-|RF05:| O sistema deve acionar uma interface de notificação para alertar os envolvidos quando houver alterações no andamento.|
-|RF06:| O sistema deve possuir uma funcionalidade de busca para consultar usuários e chamados específicos registrados na base.|
+|Requisitos Funcionais do sistema|Informações dos requisitos funcionais do sistema|
+|--------------------------------|----------------------------------------------------------------------------------------------------------------------|
+|Requisito Funcional 01:| O sistema deve permitir o cadastro de novos usuários, diferenciando o perfil entre Cliente e Técnico.|
+|Requisito Funcional 02:| O sistema deve permitir que um Cliente registre um novo chamado informando a descrição do problema.|
+|Requisito Funcional 03:| O sistema deve permitir que um Técnico assuma a responsabilidade pelo atendimento de um chamado.|
+|Requisito Funcional 04:| O sistema deve gerenciar e atualizar os status dos chamados (Aberto, Em Andamento, Resolvido, Fechado).|
+|Requisito Funcional 05:| O sistema deve acionar uma interface de notificação para alertar os envolvidos quando houver alterações no andamento.|
+|Requisito Funcional 06:| O sistema deve possuir uma funcionalidade de busca para consultar usuários e chamados específicos registrados na base.|
 
 ---
 
