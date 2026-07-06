@@ -203,10 +203,15 @@ Antes de abrir um chamado, é necessário registrar os atores no sistema para ev
 
 ---
 
-## 8 - Validações e Tratamento de Erros (Casos de Teste)
+## 8 - VALIDAÇÕES E TRATAMENTOS DE ERROS (CASO DE TESTES)
 
 O sistema conta com um ecossistema robusto de tratamento de exceções para garantir a estabilidade da aplicação contra entradas inválidas:
 
 - **Entrada Inválida no Menu:** Digitar caracteres de texto no menu principal aciona uma captura de `NumberFormatException`. O sistema exibe um aviso de entrada inválida e retorna ao menu sem interromper a execução.
 - **Duplicidade de Cadastro:** Tentar registrar dois usuários com o mesmo e-mail dispara uma exceção personalizada de chave já cadastrada, impedindo a duplicidade na memória.
 - **Busca por Identificador Inexistente:** Buscar por um ID que não consta no sistema (Ex: `999`) dispara a exceção `ChamadoNaoLocalizadoException`, exibindo uma mensagem limpa de erro em vez de quebrar o software.
+
+## 9 - CONCLUSÃO
+
+Com este projeto, fomos capazes de usar os conteudos ensinados em sala de maneira prática, facilitando a resolução deste trabalho.
+O simulador cumpre com os requisitos requeridos pelo professor na disciplina de Orientação a Objetos
