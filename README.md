@@ -147,7 +147,7 @@ O diagrama de classes ilustra a estrutura do sistema, destacando as relações, 
 
 ---
 
-## 8 - MANUAL DE USUÁRIO
+## 7 - MANUAL DE USUÁRIO
 
 Ao executar a classe `Main.java`, o sistema exibirá o menu principal no console, aguardando a inserção dos comandos numéricos.
 
