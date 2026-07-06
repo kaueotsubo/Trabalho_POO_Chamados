@@ -38,7 +38,7 @@ A comunicação e a flexibilidade do sistema foram aprimoradas através da Progr
 
 ---
 
-## 4 - CASOS DE USO
+## 4 - DIAGRAMA DE CASOS DE USO
 
 ![](imgs/usodiagrama.png)
 
