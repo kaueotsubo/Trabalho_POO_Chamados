@@ -1,5 +1,7 @@
 # Sistema de Chamados Automatizado de HelpDesk
 
+
+
 ### Integrantes: 
 - Ana Luiza Costa da Frota
 - Kauê Otsubo de Araujo
@@ -10,6 +12,8 @@
 - Linguagem Java
 - JDK (Java Development Kit)
 - IntelliJ IDEA
+
+
 
 ---
 
@@ -42,7 +46,9 @@ A comunicação e a flexibilidade do sistema foram aprimoradas através da Progr
 
 ## 4 - DIAGRAMA DE CASOS DE USO
 
-![](imgs/usodiagrama.png)
+<p align="center">
+    <img src="imgs/usodiagrama.png">
+</p>
 
 Como ilustrado no diagrama, as interações principais do sistema são divididas entre dois atores:
 - **Técnico:** Gerencia o ciclo de vida do chamado (assumir, alterar status, buscar) e consulta usuários.
