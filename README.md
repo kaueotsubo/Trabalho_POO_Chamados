@@ -216,4 +216,4 @@ O sistema conta com um ecossistema robusto de tratamento de exceções para gara
 ## 9 - CONCLUSÃO
 
 Com este projeto, fomos capazes de usar os conteúdos ensinados em sala de maneira prática, facilitando a resolução deste trabalho. O sistema cumpre com os requisitos
-requeridos pelo professor na disciplina de Orientação a Objetos
+requeridos pelo professor na disciplina de Orientação a Objetos.
