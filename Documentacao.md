@@ -32,6 +32,7 @@ Em ambientes corporativos ou acadêmicos, a solicitação de suporte técnico mu
 
 ## 3 - CASOS DE USO
 
+![](imgs/usodiagrama.png)
 
 ---
 
